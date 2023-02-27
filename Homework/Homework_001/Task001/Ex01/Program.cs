@@ -1,14 +1,23 @@
-﻿
-int a = 5;
-int b = 7;
-int max = 0;
-if(a>b)
+﻿int GetNumber (string text)
 {
-    max=a;
+    Console.Write(text);
+    return Convert.ToInt32(Console.ReadLine());
+}
+
+
+
+int valueA = GetNumber("Введите число a: ");
+int valueB = GetNumber("Введите число b: ");
+
+int max;
+if(valueA>valueB)
+{
+    max=valueA;
 }
 else
 {
-    max=b;
+    max=valueB;
 }
 Console.Write("max=");
 Console.WriteLine(max);
+
