@@ -6,18 +6,22 @@
 
 int N = GetNumber("Введите число: ");
 int number = 1;
+
+string output = String.Empty;
+
 while (number <= N)
 {
     if (number%2==0)
     {
         if(number >= N-1)
         {
-            Console.Write(number+".");
+            output = output + number + ".";
         }
         else
         {
-            Console.Write(number+", ");
+            output = output + number + ", ";
         }
     }
     number++;
 }
+System.Console.WriteLine(output);
