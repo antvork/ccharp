@@ -4,24 +4,28 @@
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int N = GetNumber("Введите число: ");
-int number = 1;
-
-string output = String.Empty;
-
-while (number <= N)
+string GetNumberTwo(int count)
 {
-    if (number%2==0)
+
+    string output = String.Empty;
+    int number = 1;
+    while (number <= count)
     {
-        if(number >= N-1)
+        if (number%2==0)
         {
-            output = output + number + ".";
+            if(number >= count-1)
+            {
+                output = output + number + ".";
+            }
+            else
+            {
+                output = output + number + ", ";
+            }
         }
-        else
-        {
-            output = output + number + ", ";
-        }
+        number++;
     }
-    number++;
+    return output;
 }
-System.Console.WriteLine(output);
+int N = GetNumber("Введите число: ");
+string res = GetNumberTwo(N);
+System.Console.WriteLine(res);
