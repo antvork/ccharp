@@ -1,12 +1,14 @@
-﻿Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
+﻿int GetNumber(string text)
+{
+    Console.WriteLine(text);
+    return Convert.ToInt32(Console.ReadLine());
+}
+int number = GetNumber("Введите число: ");
+int result = 0;
 
-int hundred = 100;
-int ten = 10;
-int result;
 if (number > 99 && number < 1000)
 {
-    result = (number % hundred) / ten;
+    result = (number % 100) / 10;
     Console.WriteLine(result);
 }
 else
