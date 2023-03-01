@@ -25,7 +25,8 @@
 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N. [Блок-схема](/Homework/Homework_001/Task004/diagram.drawio.png)
 - Ex001 [Код](/Homework/Homework_001/Task004/Ex01/Program.cs)
 
-
+### Training
+ - Example01
 ## Seminar
 - Seminar001
     - Ex001

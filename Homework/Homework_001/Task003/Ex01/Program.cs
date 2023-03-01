@@ -5,14 +5,14 @@
 }
 void ParCheck(int a)
 {
-    if(a%2==0)
-{
-    Console.WriteLine("Данное число четное");
+    if (a % 2 == 0)
+    {
+        Console.WriteLine("Данное число четное");
+    }
+    else
+    {
+        Console.WriteLine("Данное число не четное");
+    }
 }
-else
-{
-    Console.WriteLine("Данное число не четное");
-}
-}
-int a = GetNumber("Введите число: ");
-ParCheck(a);
+int b = GetNumber("Введите число: ");
+ParCheck(b);
