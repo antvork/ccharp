@@ -1,32 +1,38 @@
 # Csharp
 ## Homework
-- ### Homework001
-### Task001
-Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее. [Блок-схема](/Homework/Homework_001/Task001/diagram.drawio.png)
-- Ex001 [КОД](/Homework/Homework_001/Task001/Ex01/Program.cs)
-    a = 5; b = 7 -> max = 7
-    a = 2 b = 10 -> max = 10
-    a = -9 b = -3 -> max = -3
-### Task002
-Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел. [Блок-схема](/Homework/Homework_001/Task002/diagram.drawio.png)
-- Ex001 2 [Код](/Homework/Homework_001/Task002/Ex01/Program.cs)
-    2, 3, 7 -> 7
-    44, 5, 78 -> 78
-    22, 3, 9 -> 22
+> ### Homework001
+>>###  Task
+>>>Напишите программу, которая на вход принимает два числа и выдаёт, какое число >>>большее, а какое меньшее. [Блок-схема](/Homework/Homework_001/Task001/diagram.>>> drawio.png)
+>>>> -  Ex001 [КОД](/Homework/Homework_001/Task001/Ex01/Program.cs)
+>>>>  a = 5; b = 7 -> max = 7
+>>>>  a = 2 b = 10 -> max = 10
+>>>>  a = -9 b = -3 -> max = -3
+>>### Task002
+>>>Напишите программу, которая принимает на вход три числа и выдаёт максимальное >>> из этих чисел. [Блок-схема](/Homework/Homework_001/Task002/diagram.drawio.>>> png)
+>>>> - Ex001 2 [Код](/Homework/Homework_001/Task002/Ex01/Program.cs)
+>>>>    2, 3, 7 -> 7
+>>>>    44, 5, 78 -> 78
+>>>>    22, 3, 9 -> 22
 
-### Task003
- Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).. [Блок-схема](/Homework/Homework_001/Task003/diagram.drawio.png)
-- Ex001  [Код](/Homework/Homework_001/Task003/Ex01/Program.cs)
-    4 -> да
-    -3 -> нет
-    7 -> нет
+>> ### Task003
+>>> Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).. [Блок-схема](/Homework/Homework_001/Task003/diagram.drawio.png)
+>>>> - Ex001  [Код](/Homework/Homework_001/Task003/Ex01/Program.cs)
+>>>>    4 -> да
+>>>>    -3 -> нет
+>>>>    7 -> нет
 
-### Task004
-Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N. [Блок-схема](/Homework/Homework_001/Task004/diagram.drawio.png)
-- Ex001 [Код](/Homework/Homework_001/Task004/Ex01/Program.cs)
+>>### Task004
+>>> Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N. [Блок-схема](/Homework/Homework_001/Task004/diagram.drawio.png)
+>>>> - Ex001 [Код](/Homework/Homework_001/Task004/Ex01/Program.cs)
 
-### Training
- - Example01
+>- ### Homework002
+>>### Task01
+>>> -  Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа. 
+>>> 456 -> 5,782 -> 8, 918 -> 1. [Блок-схема](/Homework/Homework002/Task01/diagram.drawio.png), [Код](/Homework/Homework002/Task01/Program.cs).
+ 
+
+>## Training
+>> - Example01
 ## Seminar
 - Seminar001
     - Ex001
