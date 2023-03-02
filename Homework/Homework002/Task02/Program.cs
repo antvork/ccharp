@@ -4,19 +4,37 @@
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int number = GetNumber("Введите число: ");
+int GetThreeNum(int number)
+{
+    while (number > 1000)
+    {
+         number = number / 10;
+    }
+    return  number;
+}
 
-while (number > 1000)
+static int ControlThreeNum(int number)
 {
-    number = number / 10;
+    return number / 100;
 }
-int a = number / 100;
-if (a == 0)
+
+void SearchThirdNum(int number, int a)
 {
-    Console.WriteLine("Третьей цифры нет");
+    if (a == 0)
+    {
+        Console.WriteLine("Третьей цифры нет");
+    }
+    else
+    {
+        int result = number % 10;
+        Console.WriteLine(result);
+    }
 }
-else
-{
-    int result = number % 10;
-    Console.WriteLine(result);
-}
+
+int number = GetNumber("Введите число: ");
+int number3 = GetThreeNum(number);
+int a = ControlThreeNum(number3);
+SearchThirdNum(number3, a);
+
+
+
