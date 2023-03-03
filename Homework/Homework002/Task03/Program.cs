@@ -4,16 +4,24 @@
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int day = GetNumber("Введите число дня недели: ");
-string output = ("Не верное число");
-
-if(day <= 7 && day > 0)
+string GetWekendDay(int nDay)
 {
-    if(day>5)
+    string output = ("Не верное число");
+    if (nDay <= 7 && nDay > 0)
     {
-        output = ("Да");
+        if (nDay > 5)
+        {
+            output = ("Да");
+        }
+        else
+            output = ("Нет");
     }
-    else
-    output = ("Нет");
+    return output;
 }
-Console.WriteLine(output);
+
+int day = GetNumber("Введите число дня недели: ");
+string result = GetWekendDay(day);
+
+
+
+Console.WriteLine(result);

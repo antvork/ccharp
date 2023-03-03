@@ -13,7 +13,7 @@ int GetThreeNum(int number)
     return  number;
 }
 
-static int ControlThreeNum(int number)
+int ControlThreeNum(int number)
 {
     return number / 100;
 }
