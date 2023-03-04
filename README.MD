@@ -50,3 +50,9 @@
 - Seminar001
     - Ex001
     ### Вывести квадрат числа [Код](/Seminar/Seminar_001/Ex001/Program.cs), [Блок-схема](/Seminar/Seminar_001/Ex001/diagram.drawio.png)
+- Seminar002
+    - Ex001
+    ### Вывести квадрат числа [Код](/Seminar/Seminar_001/Ex001/Program.cs), [Блок-схема](/Seminar/Seminar_001/Ex001/diagram.drawio.png)
+- Seminar003
+    - Ex001
+    ### Найти кубы чисел от 1 до N (24) [Код](/Seminar/Seminar_003/Ex01/Program.cs), [Блок-схема](/Seminar/Seminar_003/Ex01/diagram.drawio.png)
