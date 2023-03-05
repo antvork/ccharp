@@ -46,13 +46,23 @@
 
 >## Training
 >> - Example01
+
+## Lecture
+>- ### Example013_method
+>> Четыре типа методов и цикл *FOR* [Код](/Lecture/Example013_Methods/Program.cs)
+>- ### Example014_for
+>> Задача для использования цикла *FOR* [Код](/Lecture/Example014_For/Program.cs)
+>- ### Example015_sortArray
+>> Задача отсортировать массив от наменьшего к наибольшему с использованием цикла *FOR* [Код](/Lecture/Example014_For/Program.cs)
+
+
 ## Seminar
-- Seminar001
-    - Ex001
-    ### Вывести квадрат числа [Код](/Seminar/Seminar_001/Ex001/Program.cs), [Блок-схема](/Seminar/Seminar_001/Ex001/diagram.drawio.png)
-- Seminar002
-    - Ex001
-    ### Вывести квадрат числа [Код](/Seminar/Seminar_001/Ex001/Program.cs), [Блок-схема](/Seminar/Seminar_001/Ex001/diagram.drawio.png)
-- Seminar003
-    - Ex001
-    ### Найти кубы чисел от 1 до N (24) [Код](/Seminar/Seminar_003/Ex01/Program.cs), [Блок-схема](/Seminar/Seminar_003/Ex01/diagram.drawio.png)
+>- Seminar001
+>>    - Ex001
+>>    ### Вывести квадрат числа [Код](/Seminar/Seminar_001/Ex001/Program.cs), [Блок-схема](/Seminar/Seminar_001/Ex001/diagram.drawio.png)
+>- Seminar002
+>>    - Ex001
+>>    ### Вывести квадрат числа [Код](/Seminar/Seminar_001/Ex001/Program.cs), [Блок-схема](/Seminar/Seminar_001/Ex001/diagram.drawio.png)
+>- Seminar003
+>>   - Ex001
+>>    ### Найти кубы чисел от 1 до N (24) [Код](/Seminar/Seminar_003/Ex01/Program.cs), [Блок-схема](/Seminar/Seminar_003/Ex01/diagram.drawio.png)
