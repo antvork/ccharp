@@ -3,7 +3,6 @@
 //6, 1, 33 -> [6, 1, 33]
 using static Library;
 
-
 int num = GetNumber("Введите число: ");
 int min = GetNumber("Введите минимальное значение: ");
 int max = GetNumber("Введите максимальне значение: ");
