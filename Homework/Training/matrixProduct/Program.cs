@@ -19,7 +19,7 @@ int[,] GetProdutMatrix(int[,] array1, int[,] array2)
     {
         for (int j = 0; j < array2.GetLength(1); j++)
         {
-            for (int k = 0; k < array1.GetLength(0); k++)
+            for (int k = 0; k < array1.GetLength(1); k++)
             {
                 sum = sum + array1[i, k] * array2[k, j]; 
             }
